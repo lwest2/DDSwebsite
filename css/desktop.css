@@ -1,0 +1,48 @@
+.navbar {
+  z-index: 5000;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  background-color: grey;
+  color: white;
+}
+
+#active {
+  background-color: lightgrey;
+}
+
+#content {
+  position: relative;
+  background-color: black;
+  padding: 100px;
+}
+
+#parallax-container {
+  display: block;
+  height: 1040px;
+}
+
+#parallax-container div {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 1040px;
+  width: 100%;
+}
+
+#background-01 {
+  position: absolute;
+  top: 20px;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 1080px;
+  width: 100%;
+}
