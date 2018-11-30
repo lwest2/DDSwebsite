@@ -80,4 +80,31 @@ body {
   position: relative;
   background-color: #212121;
   padding: 100px;
+  z-index: 98;
+}
+
+/* Parallax */
+
+.keyart, .keyart_layer {
+	height: 1000px;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.keyart_layer.parallax {
+	position: fixed;
+}
+
+#keyart-5 {
+  background-image: url('../resources/img/parallax5.png');
 }
